@@ -12,8 +12,14 @@ class CaosApplicationTests {
 
 
 	/**
-		This is a sample text commit. Again added
+		This is a sample text commit.
 	 */
 
+	 /**
+		This is a sample text commit2.
+	 */
+	/**
+		can we ammend this change along with that
+	 */
 
 }
