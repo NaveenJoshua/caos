@@ -1,34 +1,37 @@
 package com.un.wm.caos.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class BrokerageAccountDto {
+    @JsonIgnore
+    private int accountId;
 
-    private int account_id;
+    private String accountNumber;
 
-    private String gsba_account_number;
+    private String accountName;
 
-    private String account_name;
-
-    public int getAccount_id() {
-        return account_id;
+    public int getAccountId() {
+        return accountId;
     }
 
-    public void setAccount_id(int account_id) {
-        this.account_id = account_id;
+    public void setAccountId(int accountId) {
+        this.accountId = accountId;
     }
 
-    public String getGsba_account_number() {
-        return gsba_account_number;
+    public String getAccountNumber() {
+        return accountNumber;
     }
 
-    public void setGsba_account_number(String gsba_account_number) {
-        this.gsba_account_number = gsba_account_number;
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
-    public String getAccount_name() {
-        return account_name;
+    public String getAccountName() {
+        return accountName;
     }
 
-    public void setAccount_name(String account_name) {
-        this.account_name = account_name;
+    public void setAccountName(String accountName) {
+        this.accountName = accountName;
     }
+
 }

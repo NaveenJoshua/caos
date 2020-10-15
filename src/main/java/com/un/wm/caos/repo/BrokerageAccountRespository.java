@@ -4,7 +4,14 @@ import com.un.wm.caos.domain.BrokerageAccount;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 
+import java.util.List;
+import java.util.Optional;
+
 public interface BrokerageAccountRespository extends CrudRepository<BrokerageAccount , Integer> {
+
+    Optional<BrokerageAccount> findByAccountNumber(String accountNumber);
+
+    Optional<BrokerageAccount> findByAccountName(String accountName);
 
     /*@Override
     @RestResource(exported = false)
