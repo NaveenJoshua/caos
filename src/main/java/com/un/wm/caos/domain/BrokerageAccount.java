@@ -25,10 +25,10 @@ public class BrokerageAccount implements Serializable {
     protected BrokerageAccount(){}
 
     @Override
-    public boolean equals(Object o) {
+    public boolean        equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof BrokerageAccount)) return false;
-        BrokerageAccount that = (BrokerageAccount) o;
+        BrokerageAccount that =                       (BrokerageAccount) o;
         return getAccountId() == that.getAccountId() &&
                 Objects.equals(getAccountNumber(), that.getAccountNumber()) &&
                 Objects.equals(getAccountName(), that.getAccountName());
