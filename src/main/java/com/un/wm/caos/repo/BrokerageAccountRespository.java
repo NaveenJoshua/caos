@@ -6,7 +6,9 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 import java.util.List;
 import java.util.Optional;
-
+/*
+* Commit B soft reset
+*/
 public interface BrokerageAccountRespository extends CrudRepository<BrokerageAccount , Integer> {
 
     Optional<BrokerageAccount> findByAccountNumber(String accountNumber);

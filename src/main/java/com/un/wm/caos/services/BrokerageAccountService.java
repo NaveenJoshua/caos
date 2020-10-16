@@ -4,7 +4,9 @@ import com.un.wm.caos.domain.BrokerageAccount;
 import com.un.wm.caos.repo.BrokerageAccountRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+/*
+* Commit B soft reset
+*/
 @Service
 public class BrokerageAccountService {
 

@@ -6,7 +6,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Objects;
-
+/*
+* Testing Reset - Soft
+*/
 @Entity
 public class BrokerageAccount implements Serializable {
     @Id
