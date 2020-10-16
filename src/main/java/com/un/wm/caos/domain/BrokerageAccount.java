@@ -71,4 +71,8 @@ public class BrokerageAccount implements Serializable {
     public void setAccountName(String accountName) {
         this.accountName = accountName;
     }
+
+    /**This change is done in this file to collaborate the changes with other team members
+    Testing origin branch and git hub reflection in remote server
+     */
 }
