@@ -9,6 +9,9 @@ import java.util.Objects;
 /*
 * Testing Reset - Soft
 */
+/*
+* PURPOSEFULLY ADDING THIS LINE TO TEST THE THREE WAY MERGE
+*/
 @Entity
 public class BrokerageAccount implements Serializable {
     @Id
