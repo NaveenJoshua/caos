@@ -24,7 +24,7 @@ public class BrokerageAccountService {
             brokerageAccountRespository.save(new BrokerageAccount(account_id , gsba_account_number , account_name));
         }
         // ADDING THIS COMMENT FOR RETRIGGER
-        
+        // ADDING THIS COMMENT FOR RETRIGGER
         return null;
     }
 
